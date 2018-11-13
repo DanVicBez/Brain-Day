@@ -1,0 +1,80 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #111177;
+    background: #E5E5E5;
+    margin: 0;
+    text-align: center;
+}
+
+header {
+    font-family: 'Slabo 27px', sans-serif;
+    font-size: 120%;
+    box-shadow: 0 0 10px 10px #0000AA;
+    margin-bottom: 100px;
+    padding: 15px;
+    background: #3388FF;
+}
+
+.container h1 {
+    font-size: 48px;
+    text-decoration: underline;
+    margin-bottom: 50px;
+}
+
+.timer {
+    font-size: 48px;
+    margin-bottom: 80px;
+}
+
+.words {
+    display: none;
+}
+
+.words p {
+    display: inline;
+}
+
+.words input {
+    width: 22px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    text-align: center;
+    background: none;
+    color: black;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid black;
+}
+
+#home {
+    font-size: 24px;
+}
+
+p, li {
+    font-size: 24px;
+    width: 75%;
+    margin: 0 auto;
+}
+
+li {
+    list-style: none;
+}
+
+label, select, button {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 36px;
+}
+
+button {
+    min-width: 100px;
+    margin: 15px;
+    padding: 5px 15px;
+    border: 4px solid #000033;
+    border-radius: 10px;
+    background: #1166DD;
+}
+
+button:hover {
+    background: #3388FF;
+    cursor: pointer;
+}
